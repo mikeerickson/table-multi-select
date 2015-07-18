@@ -54,4 +54,5 @@ gulp.task('build', ['hint', 'browserify', 'uglify'], function() {
 gulp.task('watch', function() {
   gulp.watch(config.watch.browserify, ['browserify']);
   gulp.watch(config.watch.uglify,     ['uglify']);
+  gulp.watch(config.watch.scripts,    ['hint']);
 });

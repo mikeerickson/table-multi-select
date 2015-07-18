@@ -25,7 +25,8 @@ module.exports = {
 
   watch: {
     browserify: ['./examples/js/app.js','./src/**/*.js'],
-    uglify:     ['./examples/lib/**/*.js']
+    uglify:     ['./examples/lib/**/*.js'],
+    scripts:    ['./examples/public/lib/TableMultiRowSelect.js','./gulpfile.js']
   }
 
 };
