@@ -1,0 +1,39 @@
+{
+  "name": "react-table-select",
+  "version": "0.2.7",
+  "repository": "https://github.com/AllenSH12/react-table-select.git",
+  "description": "React table with selectable rows.",
+  "main": "index.js",
+  "author": "Allen Hernandez",
+  "license": "MIT",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "react-component",
+    "jquery",
+    "table",
+    "multirow",
+    "multi",
+    "row"
+  ],
+  "dependencies": {
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1",
+    "react": "^0.12.2",
+    "react-tools": "^0.12.2"
+  },
+  "devDependencies": {
+    "browserify": "^7.0.3",
+    "chalk": "^1.1.0",
+    "del": "^1.2.0",
+    "gulp": "^3.8.10",
+    "gulp-copy": "0.0.2",
+    "gulp-messenger": "0.0.41",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "reactify": "^0.17.1",
+    "uglify": "^0.1.5",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}

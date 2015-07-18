@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Multi Row Select</title>
+
+        <link rel="stylesheet" href="public/css/app.css"/>
+        <link rel="stylesheet" href="public/lib/table-multi-row-select.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    </head>
+<body>
+
+    <h1>Table Multi Row Select</h1>
+
+    <div id="container" class="col-md-12">
+        <div class="row">
+
+            <div id="appTools">
+                <button id="tblMulti_SelectAll">Select All</button>
+                <button id="tblMulti_ClearAll">Clear Selection</button>
+                <button id="tblMulti_SetSelected">Set Selected</button>
+                <button id="tblMulti_GetSelected">Get Selected</button>
+                <div id="tblMulti_Selected"></div>
+            </div>
+
+            <table
+                   id="table-multi-row-select"
+                   class="table table-stripped table-bordered table-hover"
+                    >
+                <thead>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                        <th>Grade</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td colspan="100">
+                            <strong>Parents (2 records)</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mike</td>
+                        <td>Erickson</td>
+                        <td>18</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Kira</td>
+                        <td>Erickson</td>
+                        <td>12</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="100">
+                            <strong>Kids (5 records)</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Joelle</td>
+                        <td>Asoau</td>
+                        <td>14</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Nate</td>
+                        <td>Asoau</td>
+                        <td>14</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Brady</td>
+                        <td>Erickson</td>
+                        <td>14</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Bailey</td>
+                        <td>Erickson</td>
+                        <td>14</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Trevor</td>
+                        <td>Erickson</td>
+                        <td>12</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="100">
+                            <strong>Grand Kids (2 records)</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alaya</td>
+                        <td>Asoau</td>
+                        <td>0</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Baby</td>
+                        <td>Asoau</td>
+                        <td>-6</td>
+                        <td><a href="mailto:mike.erickson@mac.com">mike.erickson@mac.com</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="public/lib/TableMultiRowSelect.js"></script>
+    <!--<script src="public/lib/table-multi-row-select.js"></script>-->
+    <script src="public/js/native.js"></script>
+
+</body>
+</html>
+
+
+
+
+
