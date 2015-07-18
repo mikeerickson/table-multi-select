@@ -1,11 +1,11 @@
 module.exports = {
 
   defaults: {
-    show: false,
+    show: false
   },
 
   scripts: {
-    src: ['./examples/public/lib/TableMultiRowSelect.js']
+    src: ['./examples/public/lib/TableMultiRowSelect.js','./gulpfile.js']
   },
 
   browserify: {
@@ -16,9 +16,9 @@ module.exports = {
 
   build: {
     lib: {
-      src:       ['./examples/public/lib/**/*.js'],
+      src:       ['./examples/public/lib/TableMultiRowSelect.js'],
       dest:      './examples/public/lib',
-      filename : 'table-multi-row-select.min.js',
+      filename : 'TableMultiRowSelect.min.js',
       dist:      './dist'
     }
   },

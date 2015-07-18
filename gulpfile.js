@@ -14,7 +14,7 @@ var rename       = require('gulp-rename');
 var copy         = require('gulp-copy');
 var config       = require('./tasks/config');
 var del          = require('del');
-var jshint       = require('gulp-jshint')
+var jshint       = require('gulp-jshint');
 
 require('jshint-stylish');
 
@@ -48,7 +48,7 @@ gulp.task('uglify', function(cb) {
 gulp.task('build', ['hint', 'browserify', 'uglify'], function() {
   msg.Warn('=== Building Distribution ===');
   return gulp.src(['./examples/public/lib/**/*.*'])
-    .pipe(copy(config.build.lib.dist, {prefix: 3}))
+    .pipe(copy(config.build.lib.dist, {prefix: 3}));
 });
 
 gulp.task('watch', function() {

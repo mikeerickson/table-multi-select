@@ -5,10 +5,10 @@
 // TODO: Convert this to a jQuery plugin
 //
 // tableMultiRowSelect.init({options})
-// id: string         ( 'table-multi-row-select' )
-// className: string  ( 'table-multi-row-select' )
-// selected:  array   ( [] )
-// rowOffset: integer ( 0 )
+// - id: string         ( 'table-multi-row-select' )
+// - className: string  ( 'table-multi-row-select' )
+// - selected:  array   ( [] ) default selected rows
+// - rowOffset: integer ( 0 ) this is rarely required but just in case (used in work conditions)
 
 /*global window*/
 
@@ -27,7 +27,7 @@
     var defaultOptions  = {
       id:        'table-multi-row-select',
       className: 'table-multi-row-select',
-      selected:  [1],
+      selected:  [],
       rowOffset: 0
     };
 
@@ -105,6 +105,7 @@
 
     this.handleRowClick = function(clickedRow) {
       if (window.event.ctrlKey) {
+        window.event.preventDefault();
         this.toggleRow(clickedRow);
       }
 

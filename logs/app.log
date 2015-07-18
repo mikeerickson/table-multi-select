@@ -7,3 +7,12 @@
 {"level":"info","message":"\u001b[32m*** ./examples/public/js/app.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T18:32:22.378Z"}
 {"level":"info","message":"\u001b[32m*** table-multi-row-select.min.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T18:32:22.798Z"}
 {"level":"warn","message":"\u001b[33m=== Building Distribution ===\u001b[39m","timestamp":"2015-07-18T18:32:22.886Z"}
+{"level":"info","message":"\u001b[32m*** ./examples/public/js/app.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T19:23:38.041Z"}
+{"level":"info","message":"\u001b[32m*** table-multi-row-select.min.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T19:23:38.495Z"}
+{"level":"warn","message":"\u001b[33m=== Building Distribution ===\u001b[39m","timestamp":"2015-07-18T19:23:38.571Z"}
+{"level":"info","message":"\u001b[32m*** ./examples/public/js/app.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T19:26:22.776Z"}
+{"level":"info","message":"\u001b[32m*** table-multi-row-select.min.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T19:26:22.968Z"}
+{"level":"warn","message":"\u001b[33m=== Building Distribution ===\u001b[39m","timestamp":"2015-07-18T19:26:23.079Z"}
+{"level":"info","message":"\u001b[32m*** ./examples/public/js/app.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T19:27:03.402Z"}
+{"level":"info","message":"\u001b[32m*** TableMultiRowSelect.min.js Created Successfully ***\u001b[39m","timestamp":"2015-07-18T19:27:03.623Z"}
+{"level":"warn","message":"\u001b[33m=== Building Distribution ===\u001b[39m","timestamp":"2015-07-18T19:27:03.733Z"}
