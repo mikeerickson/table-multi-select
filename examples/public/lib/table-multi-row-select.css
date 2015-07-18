@@ -1,0 +1,20 @@
+/*
+    // =============================================================================
+    // TABLE MULTI ROW SELECT CSS
+    // 2015-07-13 [mse]
+    // Ambry Genetics
+    // =============================================================================
+*/
+
+#table-multi-row-select .selected {
+  background: lightBlue;
+  background: lightPink;
+}
+
+#table-multi-row-select, .table-multi-row-select {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+body {
+  margin: 40px;
+  padding: 40px;
+}
+
+#container {
+  width: 900px;
+}
+
+button {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#tblMulti_Selected {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
